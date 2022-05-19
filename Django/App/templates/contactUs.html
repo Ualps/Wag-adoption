@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>Contact Us</h1>
+<h3>Information</h3>
+<ul class="list">
+<li><strong>Email:</strong> WagAdopt@hotmail.com</li>
+<li><strong>Telephone:</strong> +1(760)274-4444</li>
+<li><strong>Address:</strong> 202 Tail Lane Glendora, Ca 91740</li>
+<li id="social"><strong>Social Media:</strong><a class="nav-item nav-link" href="https://www.facebook.com">Facebook</a></li>
+
+<form>
+  <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+  </div>    
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email Address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comment Area</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+</ul>  
+
+
+
+{%endblock%}

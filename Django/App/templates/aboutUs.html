@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h3>About Wag Adoption</h3>
+
+<div id ="ProfContainer"></div>
+
+<!-- This is the code needed to refer to your image inside the folder -->
+    <p>{% load static %} <img src="{% static "App/media/wag.png" %}" alt="Wag company logo">  </p>  
+
+    <p>We are Wag a company that has been handling dogs and animals adoption for over thirty plus years. We take great pride in our work and our care for those without a home.
+    As a family we have always had a few animals in our family. Having a pet is something that helps families connect and kids learn great skills.
+    
+    </p>
+      <p>{% load static %} <img src="{% static "App/media/famdog.jpg" %}" alt="family">  </p>  
+    <p> We make sure all of our dogs are vaccinated and are healthy so they can spend time with you as soon as you adopt! In the end, all that matters to us is that you find the perfect dog for you!
+</div>
+
+
+
+{%endblock%}
